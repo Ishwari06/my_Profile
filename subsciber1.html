@@ -1,0 +1,81 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <style>
+        .container{
+             margin-left: 100px;
+            margin-top: 20px;
+            width: 380px;
+            height: 550px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        h3{
+            margin-left: 20px;
+        }
+        .box{
+            background-color:dodgerblue; 
+            width: 350px;
+            height: 180px;
+            margin-left: 20px;
+            overflow: visible;
+           border-radius: 10px;
+            padding-top: 10px;
+            padding-bottom: 15px;
+        }
+        .para{
+           margin-left: 20px;
+           width: 300px;
+           
+           margin-top: 20px;
+           margin-bottom: 10px;
+        }
+        .line{
+            margin-left: 20px;
+            border-radius: 10px;
+            
+        }
+        hr{
+            margin-left: 20px;
+        }
+        #Unsubscribe{
+            margin-left: 280px;
+        }
+        input{
+                width: 350px;
+                height: 35px;
+                border-radius: 10px;
+                border: 1px solid burlywood;
+                
+            }
+            #tools{
+                color: red;
+            }
+    </style>       
+</head>
+<body>
+    <div class="container">
+        <h3>Subscriber</h3>
+        <hr><br>
+        <div class="box">
+        <p class="para">We're sorry to see you go, but hey, no hard feeling, hopefully we will see you back one day.<br>
+        Please fill in your email address in order to unsubscribe from the list.<br>
+        You will receive an email to confirm your unsubscription, just to make 
+        sure this is not an accident or somebody else tries
+            to unsubscribe you.</p>
+        </div><br>
+            <label for="email*" class="line"><strong>Email<span id="tools">*</span></strong></label><br>
+            <input type="text" id="email" class="line"/></span><br><br>
+            <label for="unsubscribereason" class="line"><strong>Unsubscribe reason</strong></label><br>
+            <input type="text" id="unsubscribe" autofocus required placeholder="Unsubscribe reason" class="line"/><br><br>
+            <hr><br>
+            <button type="Unsubscribe" id="Unsubscribe">Unsubscribe</button>
+        </div>
+    
+</body>
+</html>
